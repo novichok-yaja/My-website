@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background: transparent;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  padding: 7px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav.nav-wrapper ul li {
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+
+nav.nav-wrapper ul li a {
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 3px;
+  transition: 0.3s;
+}
+
+nav.nav-wrapper ul li a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+header .logo img {
+  max-width: 100px;
+}
+
+/* parallex page style */
+
+.cover-main {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/hero-bg.jpg") right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+ul#scene li.name {
+  text-align: center;
+  font-size: 40px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+}
+
+ul#scene li.title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  margin-top: 60px;
+}
+
+ul#scene {
+  margin-top: 100px;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+}
+
+
+.portfolio-btn, .contact-btn{
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 00.3s;
+}
+
+.portfolio-btn{
+    margin-right: 30px;
+}
+
+.contact-btn{
+    margin-left: 30px;
+}
+
+
+.portfolio-btn:hover, .contact-btn:hover{
+    background: white;
+    color: blueviolet;
+}
